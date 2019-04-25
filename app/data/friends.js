@@ -2,6 +2,21 @@ var friends = [ // friends quite quite literally actually....
 	{
 	name: "Ross Geller",
 	scores: [
+			"6",
+			"6",
+			"6",
+			"6",
+			"6",
+			"6",
+			"6",
+			"6",
+			"6",
+			"6"
+			]
+	},
+	{
+	name: "Chandler Bing",
+	scores: [
 			"5",
 			"5",
 			"5",
@@ -15,7 +30,7 @@ var friends = [ // friends quite quite literally actually....
 			]
 	},
 	{
-	name: "Chandler Bing",
+	name: "Joey Tribiani",
 	scores: [
 			"4",
 			"4",
@@ -28,9 +43,9 @@ var friends = [ // friends quite quite literally actually....
 			"4",
 			"4"
 			]
-	},
-	{
-	name: "Joey Tribiani",
+    },
+    {
+    name: "Phoebe Buffay",
 	scores: [
 			"3",
 			"3",
@@ -43,7 +58,7 @@ var friends = [ // friends quite quite literally actually....
 			"3",
 			"3"
 			]
-	},
+    },
 	{
 	name: "Rachel Green",
 	scores: [
@@ -73,7 +88,7 @@ var friends = [ // friends quite quite literally actually....
 			"1",
 			"1"
 			]
-	}
+    }
 ];
 
 module.exports = friends;

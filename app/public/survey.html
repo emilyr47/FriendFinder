@@ -41,7 +41,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
     <h3><strong>Question 2</strong></h3>
@@ -52,7 +53,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
 
@@ -64,7 +66,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
 
@@ -76,7 +79,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
 
@@ -88,7 +92,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
 
@@ -100,7 +105,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
 
@@ -112,7 +118,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
     <h3><strong>Question 8</strong></h3>
@@ -123,7 +130,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
     <h3><strong>Question 9</strong></h3>
@@ -134,7 +142,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
     <h3><strong>Question 10</strong></h3>
@@ -145,7 +154,8 @@
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5</option>
+      <option value="6">6 (Strongly Agree)</option>
     </select>
 
     <br>
@@ -241,7 +251,7 @@
       if (validateSurvey()) {
         var userData = {
           name: $("#name").val(),
-          photo: $("#photo").val(),
+          //photo: $("#photo").val(),
           scores: [
             $("#question1").val(),
             $("#question2").val(),
@@ -261,7 +271,6 @@
 
           // Get the result and match the friends
           $("#match-name").text(data.name);
-          $("#match-img").attr("src", data.photo);
 
           // Show the best match
           $("#results-modal").modal("toggle");
