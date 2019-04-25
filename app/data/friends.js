@@ -30,7 +30,7 @@ var friends = [ // friends quite quite literally actually....
 			]
 	},
 	{
-	name: "Rachel Green",
+	name: "Joey Tribiani",
 	scores: [
 			"3",
 			"3",
@@ -45,7 +45,7 @@ var friends = [ // friends quite quite literally actually....
 			]
 	},
 	{
-	name: "Joey Tribiani",
+	name: "Rachel Green",
 	scores: [
 			"2",
 			"2",
